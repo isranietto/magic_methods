@@ -11,7 +11,6 @@ $user =  new User([
 
 $user->nickname = 'inieto';
 
-unset($user->nickname);
 
 echo "<p>Hola {$user->first_name} {$user->last_name}</p>";
 
