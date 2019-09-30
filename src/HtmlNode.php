@@ -17,6 +17,21 @@ class HtmlNode
         $this->attributes = $attributes;
     }
 
+    public function __invoke($name)
+    {
+        return $this->get($name);
+    }
+
+    public function get($name)
+    {
+        return $this->attributes[$name] ?? null;
+    }
+
+    public function __toString()
+    {
+        return $this->render();
+    }
+
     public static function __callStatic($method, array $args = [])
     {
         $content = isset($args[0]) ? $args[0] : null;
@@ -45,13 +60,6 @@ class HtmlNode
         }
         return $result;
     }
-
-//    public function name($value)
-//    {
-//        $this->attributes['name'] = $value;
-//
-//        return $this;
-//    }
 
     protected function renderAttributes()
     {

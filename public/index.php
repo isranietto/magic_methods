@@ -32,5 +32,7 @@ $static =  HtmlNode::h1('Titulo de la clase')
     ->style('color:blue;');
 
 
-echo $static->render();
+echo $static;
+
+echo $static('id');
 
