@@ -4,9 +4,11 @@
 namespace Styde;
 
 
-class LunchBox
+class LunchBox implements \IteratorAggregate, \Countable
 {
     protected $food = [];
+
+    protected $original = true;
 
     public function __construct(array $food = [])
     {
@@ -22,4 +24,15 @@ class LunchBox
     {
         return empty($this->food);
     }
+
+    public function getIterator() {
+        return new \ArrayIterator($this->food);
+    }
+
+    public function count()
+    {
+        return count($this->food);
+    }
+
+
 }

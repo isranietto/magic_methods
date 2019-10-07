@@ -35,4 +35,15 @@ class User extends Model
 
         echo "<p>{$this->name} almuerza {$this->lunch->shift()}</p>";
     }
+
+    public function eatMeal()
+    {
+        $total = count($this->lunch); // $this->lunch->count()
+
+        echo "<p>{$this->name} tiene {$total} de alimentos</p>";
+
+        foreach ($this->lunch as $key => $food) {
+            echo "<p>{$this->name} $key ==> $food</p>";
+        }
+    }
 }
