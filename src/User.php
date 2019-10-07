@@ -6,30 +6,33 @@ namespace Styde;
 
 class User extends Model
 {
+    protected $lunch;
 
-    private $id= 5;
-    public $table = 'users';
+    protected $original = true;
 
-    private $dbPassword = 'secret';
-
-    public function __toString()
+    public function __construct(array $attributes = [])
     {
-        return $this->name;
+        parent::__construct($attributes);
+
+        $this->lunch = new LunchBox();
     }
 
-    public function __sleep()
+    public function __clone()
     {
-        return ['id'];
+        $this->original = false;
     }
 
-    public function __wakeup()
+    public function setLunch(LunchBox $lunch)
     {
-        //return $this->attributes['name'] = strtoupper($this->attributes['name']);
-        
+        $this->lunch = $lunch;
     }
 
-    public function getFirstNameAttribute($value)
+    public function eatLunch()
     {
-        return strtoupper($value);
+        if ($this->lunch->isEmpty()) {
+            throw new \Exception("{$this->name} no tiene nada para comer :( ");
+        }
+
+        echo "<p>{$this->name} almuerza {$this->lunch->shift()}</p>";
     }
 }
