@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="561c6a02-2ab4-49e5-ac3b-ab3d8a92379f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/time.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Foot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/carbon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/magic1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magic1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/iteration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LunchBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LunchBox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,10 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1R9MufSclheSQe3xoghUhyv908O" />
@@ -74,7 +79,7 @@
       <workItem from="1570457258135" duration="3876000" />
       <workItem from="1570803288585" duration="3719000" />
       <workItem from="1570972762050" duration="254000" />
-      <workItem from="1571062321558" duration="259000" />
+      <workItem from="1571062321558" duration="982000" />
     </task>
     <servers />
   </component>

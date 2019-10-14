@@ -3,6 +3,7 @@
 
 namespace Styde;
 
+use Carbon\Carbon;
 
 class User extends Model
 {
@@ -15,6 +16,13 @@ class User extends Model
         parent::__construct($attributes);
 
         $this->lunch = new LunchBox();
+    }
+
+    public function getAgeAttribute()
+    {
+        $date = Carbon::createFromFormat('d/m/Y', $this->birthDate);
+
+        return $date->age;
     }
 
     public function __clone()

@@ -9,7 +9,9 @@
             "email": "isra.utch@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "nesbot/carbon": "^2.25"
+    },
     "autoload": {
         "psr-4": {
             "Styde\\" : "src/"
