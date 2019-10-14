@@ -15,7 +15,12 @@ class LunchBox implements \IteratorAggregate, \Countable
         $this->food = $food;
     }
 
-    public function shift()
+    public function filter($callback) //inmutable
+    {
+        return new static (array_filter($this->food , $callback));
+    }
+
+    public function shift() // mutable
     {
         return array_shift($this->food);
     }
