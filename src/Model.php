@@ -4,7 +4,7 @@
 namespace Styde;
 
 
-abstract class Model
+abstract class Model implements \ArrayAccess
 {
     /**
      * @var array
@@ -79,5 +79,26 @@ abstract class Model
     public function hasAttribute($name)
     {
         return isset($this->attributes[$name]);
+    }
+
+    //isset - empty
+    public function offsetExists($offset)
+    {
+        return isset($this->$offset);
+    }
+
+    public function offsetGet($offset)
+    {
+        return $this->$offset;
+    }
+
+    public function offsetSet($offset, $value)
+    {
+        $this->$offset = $value;
+    }
+
+    public function offsetUnset($offset)
+    {
+        unset($this->$offset);
     }
 }

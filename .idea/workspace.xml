@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="561c6a02-2ab4-49e5-ac3b-ab3d8a92379f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ArrayAccessTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/StrTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/magic1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magic1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ArrayAccessTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ArrayAccessTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +108,7 @@
       <workItem from="1570803288585" duration="3719000" />
       <workItem from="1570972762050" duration="254000" />
       <workItem from="1571062321558" duration="2227000" />
-      <workItem from="1571150081249" duration="3694000" />
+      <workItem from="1571150081249" duration="4896000" />
     </task>
     <servers />
   </component>
